@@ -43,7 +43,17 @@ public class CardTrick {
         key.setSuit(suit); 
         
         
-       
+        key.setValue(11);
+        key.setSuit("Hearts");
+        boolean found = false;
+        System.out.println("Searching for: " + key);
+        for (int i = 0; i < magicHand.length; i++) {
+            if ((magicHand[i].getValue() == key.getValue()) && magicHand[i].getSuit().equalsIgnoreCase(key.getSuit())) {
+                System.out.println("Card is found in magic hand at index " + (i+1));
+                found = true;
+                break;
+            }
+        }
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
         //Then report the result here
