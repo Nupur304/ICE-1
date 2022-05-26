@@ -10,6 +10,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * and then asks the user to pick a card and searches the array of cards
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author Nupur Bhavsar
+ * Date May 26 2022 3:35 PM
  * Student Id - 991659793
  */
 import java.util.Random;

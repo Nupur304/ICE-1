@@ -13,6 +13,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * This code is to be used in ICE1. When you create your own branch,
  * add your name as a modifier.
  * @author Nupur Bhavsar
+ * Date May 26 2022 3:35 PM
  * Student Id - 991659793
  */
 public class Card {
